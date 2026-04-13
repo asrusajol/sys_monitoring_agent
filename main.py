@@ -23,4 +23,4 @@ if __name__ == "__main__":
         send_metrics(status)
         print(json.dumps(status, indent=2))
         print("########################################################")
-        time.sleep(1)
+        time.sleep(30)
